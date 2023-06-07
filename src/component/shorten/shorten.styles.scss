@@ -1,0 +1,14 @@
+.shorten-section {
+  background-color: var(--clr-primary-100);
+  padding-inline: var(--section-lf-padding);
+  background-position: 0 20%;
+  padding-bottom: 7rem;
+
+  @media only screen and (max-width: 60em) {
+    padding-inline: 3rem;
+  }
+
+  @media only screen and (max-width: 45em) {
+    padding-inline: 1rem;
+  }
+}

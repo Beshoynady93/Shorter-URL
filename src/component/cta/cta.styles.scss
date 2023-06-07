@@ -1,0 +1,40 @@
+.cta-container {
+  background-color: var(--clr-primary-700);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: cover;
+  padding: 2rem 10rem;
+
+  @media only screen and (max-width: 60em) {
+    padding-inline: 3rem;
+  }
+
+  @media only screen and (max-width: 60em) {
+    padding-inline: 1rem;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  .cta-title {
+    color: var(--clr-neutral-200);
+    font-size: var(--fs-700);
+
+    @media only screen and (max-width: 60em) {
+      font-size: var(--fs-600);
+    }
+  }
+
+  .cta-button {
+    background-color: var(--clr-primary-400);
+    border-radius: 100vw;
+    padding: 0.5rem 2rem;
+    color: var(--clr-neutral-200);
+
+    &:hover {
+      background-color: var(--clr-primary-300);
+    }
+  }
+}
